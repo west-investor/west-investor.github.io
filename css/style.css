@@ -107,3 +107,53 @@ form {
 .count a {
 	text-decoration: none;
 }
+.drop-menu {
+	display: none;
+	background: #2D71B8;
+	position: absolute;
+	width: 202%;
+	font-size: 16px;
+	text-align: left; 
+	top: 50px;
+	left: -1px;
+}
+.drop-menu a {
+	text-decoration: none;
+}
+.drop-menu li {
+	padding: 10px;
+}
+.drop-menu li:hover {
+	background: white;
+}
+.drop-menu li:hover a {
+	color: #2D71B8;
+}
+.hov:hover .drop-menu {
+	display: block;
+}
+.hov {
+	position: relative;
+}
+.hov a {
+	text-decoration: none;
+}
+.hov:hover {
+	background: #2D71B8;
+}
+.hov:hover a {
+	color: white;
+}
+.love {
+	display: none;
+	top: 25px;
+	left: 110px;
+	position: absolute;
+	width: 17px;
+	height: 7px;
+	background-image: url('../photo/icon (7).png');
+	background-position: 70% -410%
+}
+.hov:hover .love {
+	display: block;
+}
