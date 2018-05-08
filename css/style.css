@@ -3,10 +3,10 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
-.header {
+.container-fluid {
 	background: rgba(256, 256, 256, 0.8);
 }
-.content {
+.row {
 	width: 1175px;
 	margin: 0 auto;
 	padding: 25px 0 20px;
@@ -20,7 +20,7 @@ body {
 .fl {
 	float: left;
 }
-.row:after {
+.clearfix:after {
 	content: "";
 	display: block;
 	clear: both;
@@ -50,7 +50,7 @@ body {
 	border: 1px solid #2C71B8;
 	color: #2C71B8;
 	width: 55%;
-	padding: 10px 15px;
+	padding: 9px 15px;
 
 }
 .text:focus::-webkit-input-placeholder {
@@ -59,6 +59,7 @@ body {
 input::-webkit-input-placeholder {
 	color: #2C71B8;
 	font-size: 15px;
+
 }
 .submit {
 	background-color: #2C71B8;
@@ -67,7 +68,7 @@ input::-webkit-input-placeholder {
 	height: 30px;
 	position: absolute;
 	top: 3.5px;
-	left: 160px;
+	left: 143px;
 	background-image: url('../photo/icon (4).png');
 	background-repeat: no-repeat;
 	background-position: center;
@@ -156,4 +157,7 @@ form {
 }
 .hov:hover .love {
 	display: block;
+}
+input {
+	font-weight: 700;
 }
