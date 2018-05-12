@@ -1,3 +1,6 @@
+* {
+	box-sizing: border-box;
+}
 body {
 	background-image: url('../photo/patt.png');
 	font-family: 'Roboto', sans-serif;
@@ -7,31 +10,18 @@ body {
 	background: rgba(256, 256, 256, 0.8);
 }
 .row {
-	width: 1175px;
+	max-width: 1175px;
 	margin: 0 auto;
-	padding: 25px 0 20px;
+	padding: 25px 0 25px;
 }
-.w-25 {
-	width: 25%;
-}
-.w-50 {
-	width: 50%;
-}
-.fl {
-	float: left;
-}
-.clearfix:after {
-	content: "";
-	display: block;
-	clear: both;
-}
+
 .pad {
-	padding-top: 10px;
+	padding-top: 6px;
 }
+
 .it {
 	text-align: center;
-	width: 24%;
-	padding: 20px 0;
+	padding: 17px 0;
 	border-right: 1px solid #2C71B8 ;
 }
 .row li:first-child {
@@ -39,17 +29,16 @@ body {
 }
 .menu {
 	color: #2D71B8;
-	font-size: 16px;
+	font-size: 17px;
 }
 .search {
 	position: relative;
-	top: 10px;
+	top: 6px;
 }
 .text {
 	background: none;
 	border: 1px solid #2C71B8;
 	color: #2C71B8;
-	width: 55%;
 	padding: 9px 15px;
 
 }
@@ -68,7 +57,7 @@ input::-webkit-input-placeholder {
 	height: 30px;
 	position: absolute;
 	top: 3.5px;
-	left: 143px;
+	left: 145px;
 	background-image: url('../photo/icon (4).png');
 	background-repeat: no-repeat;
 	background-position: center;
@@ -80,7 +69,6 @@ form {
 	width: 40px;
 	height: 40px;
 	background: white;
-	margin-left: 30px;
 	background-image: url('../photo/icon (1).png');
 	background-repeat: no-repeat;
 	position: relative;
@@ -91,6 +79,9 @@ form {
 	height: 40px;
 	display: block;
 	
+}
+.wp {
+	padding: 0;
 }
 .count {
 	color: white;
@@ -115,7 +106,7 @@ form {
 	width: 202%;
 	font-size: 16px;
 	text-align: left; 
-	top: 50px;
+	top: 45px;
 	left: -1px;
 }
 .drop-menu a {
