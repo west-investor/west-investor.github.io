@@ -1,12 +1,24 @@
 * {
 	box-sizing: border-box;
 }
+hr {
+	margin: 1px;
+}
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.h3 {
+	color: white;
+	font-size: 30px;
+	margin-top: 37px;
+}
 body {
 	background-image: url('../photo/patt.png');
 	font-family: 'Roboto', sans-serif;
 }
-
-.container-fluid {
+header {
 	background: rgba(256, 256, 256, 0.8);
 }
 .row {
@@ -108,6 +120,7 @@ form {
 	text-align: left; 
 	top: 45px;
 	left: -1px;
+	z-index: 1;
 }
 .drop-menu a {
 	text-decoration: none;
@@ -151,4 +164,101 @@ form {
 }
 input {
 	font-weight: 700;
+}
+
+
+
+
+
+a:hover {
+	text-decoration: none;
+}
+.w  {
+	font-size: 10px;
+	color: white;
+	float: left;
+}
+.rig:after {
+	content: "";
+	display: inline-block;
+	background: url("../photo/arrow.png") center;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px;
+}
+.select-f {
+	margin: 35px 0 35px;
+	-webkit-appearance: none;
+	background: url(../photo/arrow-bot.png) no-repeat 95% 50%;
+	background-color: #245b93;
+	height: 40px;
+	width: 106%;
+	padding: 0 0 0 10px ;
+	border: 1px solid white;
+	color: white;
+
+}
+.select-f:hover {
+	background: ;
+	color: ;
+}
+.card {
+	border: 1px solid white;
+	margin-top: 25px;
+	color: white;
+}
+.card-img {
+	position: relative;
+	width: 100%;
+	height: 180px;
+	background: url(../photo/desktop.png) no-repeat center rgba(255,255,255,0.75);
+}
+.full , .like {
+	border: 1px solid #245b93;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	left: 85%;
+}
+.full {
+	background: url(../photo/full.png) no-repeat center;
+	color: red;
+	top: 5%;
+}
+.like {
+	background: url(../photo/like1.png) no-repeat center;
+	top: 25%;
+}
+.card-title {
+	font-size: 22px;
+	margin: 5%;
+}
+.mtl-10 {
+	margin: 10px 0  0  10px;
+}
+b {
+	text-transform: uppercase;
+}
+span {
+	font-weight: 100;
+}
+.price {
+	text-align: center;
+	font-weight: 500;
+	font-size: 46px;
+	margin-bottom: 
+}
+.sup {
+	font-size: 30px;
+}
+.btn-card {
+	width: 80%;
+	margin: 0 auto;
+	display: block;
+	color: white;
+	border: 1px solid white;
+	padding: 10px 0;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 500;
 }
