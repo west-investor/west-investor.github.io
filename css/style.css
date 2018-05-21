@@ -11,8 +11,8 @@ hr {
 }
 .h3 {
 	color: white;
-	font-size: 30px;
-	margin-top: 37px;
+	font-size: 44px;
+	margin-top: 20px;
 }
 body {
 	background-image: url('../photo/patt.png');
@@ -192,7 +192,7 @@ a:hover {
 	background: url(../photo/arrow-bot.png) no-repeat 95% 50%;
 	background-color: #245b93;
 	height: 40px;
-	width: 106%;
+	width: 101%;
 	padding: 0 0 0 10px ;
 	border: 1px solid white;
 	color: white;
