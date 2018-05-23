@@ -50,3 +50,11 @@ if(z<=15 && z >=0) {
 } else {
 	alert("Number is not in a specified range")
 }
+
+z = +prompt("Enter the number in range from 0 to 59");
+
+(z<=15 && z >=0) ? alert("Number from first quarter") : 
+(z>15 && z<=30) ? alert("Number from second quarter") :
+(z>30 && z<=45) ? alert("Number from second quarter") :
+(z>45 && z<=60) ? alert("Number from second quarter") : 
+alert("Number is not in a specified range");
