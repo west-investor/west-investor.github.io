@@ -35,7 +35,7 @@ if(season == "Winter"){
 } else {
 	alert("It is not a season")
 }
-*/
+
 
 var z = +prompt("Enter the number in range from 0 to 59");
 
@@ -58,3 +58,13 @@ z = +prompt("Enter the number in range from 0 to 59");
 (z>30 && z<=45) ? alert("Number from second quarter") :
 (z>45 && z<=60) ? alert("Number from second quarter") : 
 alert("Number is not in a specified range");
+
+*/
+var z = +prompt("Enter first number");
+var x = +prompt("Enter second number");
+  if(x>z) {
+  	console.log(x);
+  } else if (z>x) {
+  	console.log(z);
+  } else 
+  	console.log("Numbers are equal");

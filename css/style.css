@@ -36,6 +36,20 @@ header {
 	padding: 17px 0;
 	border-right: 1px solid #2C71B8 ;
 }
+.it:hover:after {
+	display: block;
+	position: absolute;
+	top: 20px;
+	left: 105px;
+	background-position: center;
+	content: "";
+	width: 10px;
+	height: 10px;
+	background-image: url("../photo/arrow-bot.png");
+}
+.itt:hover {
+	display: block;
+}
 .row li:first-child {
 	border-left: 1px solid #2C71B8 ;
 }
@@ -74,6 +88,17 @@ input::-webkit-input-placeholder {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+form > div {
+	color: white;
+	margin: 10px 0;
+}
+.upp {
+	text-transform: uppercase;
+}
+form > h5 {
+	text-transform: uppercase;
+	color: white;
+}
 form {
 	position: relative;
 }
@@ -81,7 +106,7 @@ form {
 	width: 40px;
 	height: 40px;
 	background: white;
-	background-image: url('../photo/icon (1).png');
+	background-image: url('../photo/basket.png');
 	background-repeat: no-repeat;
 	position: relative;
 	background-position: center;
@@ -174,7 +199,7 @@ a:hover {
 	text-decoration: none;
 }
 .w  {
-	font-size: 10px;
+	font-size: 14px;
 	color: white;
 	float: left;
 }
@@ -205,15 +230,36 @@ a:hover {
 .card {
 	border: 1px solid white;
 	margin-top: 25px;
+	background: #245b93;
 	color: white;
 }
 .card-img {
 	position: relative;
 	width: 100%;
 	height: 180px;
+}
+.img1 {
 	background: url(../photo/desktop.png) no-repeat center rgba(255,255,255,0.75);
 }
-.full , .like {
+.img2 {
+	background: url(../photo/remoter.png) no-repeat center rgba(255,255,255,0.75);
+}
+.img3 {
+	background: url(../photo/watch.png) no-repeat center rgba(255,255,255,0.75);
+}
+.img4 {
+	background: url(../photo/laptop.png) no-repeat center rgba(255,255,255,0.75);
+}
+.img5 {
+	background: url(../photo/mp3p.png) no-repeat center rgba(255,255,255,0.75);
+}
+.img6 {
+	background: url(../photo/phone.png) no-repeat center rgba(255,255,255,0.75);
+}
+.img7 {
+	background: url(../photo/tablet.png) no-repeat center rgba(255,255,255,0.75);
+}
+.f-l {
 	border: 1px solid #245b93;
 	width: 30px;
 	height: 30px;
@@ -222,12 +268,22 @@ a:hover {
 }
 .full {
 	background: url(../photo/full.png) no-repeat center;
-	color: red;
 	top: 5%;
 }
+.full:hover {
+	background: url(../photo/full1.png) no-repeat center;
+	top: 5%;
+	background-color: #245b93;
+}
 .like {
+	background: url(../photo/like.png) no-repeat center;
+	top: 25%;
+}
+.like:hover {
 	background: url(../photo/like1.png) no-repeat center;
 	top: 25%;
+	background-color: #245b93;
+
 }
 .card-title {
 	font-size: 22px;
@@ -261,4 +317,16 @@ span {
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 500;
+	background: #245b93;
+}
+.btn-card-add::after {
+	margin-left: 10px;
+	content: "";
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	background: url(../photo/basket.png);
+}
+.btn-card-add {
+	background: rgba(255,255,255,0.25);
 }
