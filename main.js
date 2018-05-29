@@ -14,11 +14,10 @@ b = parseInt(prompt("Enter second number"));
 alert(a+b);
 alert(a-b);
 alert(a*b);
-alert(a/b);*/
+alert(a/b);
 
 
 
-/*----------SEASONS-----------
 
 var season = prompt("Enter the season");
 
@@ -59,7 +58,7 @@ z = +prompt("Enter the number in range from 0 to 59");
 (z>45 && z<=60) ? alert("Number from second quarter") : 
 alert("Number is not in a specified range");
 
-*//*
+
 var z = +prompt("Enter first number");
 var x = +prompt("Enter second number");
   if(x>z) {
@@ -68,3 +67,4 @@ var x = +prompt("Enter second number");
   	console.log(z);
   } else 
   	console.log("Numbers are equal");
+*/
