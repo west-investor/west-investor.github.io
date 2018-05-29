@@ -29,7 +29,7 @@ body {
 	background-image: url("../photo/pattern.png");
 	font-family: 'Roboto', sans-serif;
 }
-header {
+.header {
 	background: rgba(256, 256, 256, 0.8);
 }
 .row {
@@ -363,7 +363,7 @@ label:before {
 	display: inline-block;
 	width: 10px;
 	height: 10px;
-	margin: 0 5px;
+	margin: 0 5px 0 0;
 	border: 1px solid white;
 }
 .checkbox:checked + label:before {
