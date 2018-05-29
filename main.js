@@ -59,7 +59,7 @@ z = +prompt("Enter the number in range from 0 to 59");
 (z>45 && z<=60) ? alert("Number from second quarter") : 
 alert("Number is not in a specified range");
 
-*/
+*//*
 var z = +prompt("Enter first number");
 var x = +prompt("Enter second number");
   if(x>z) {

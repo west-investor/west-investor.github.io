@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Roboto:100,400,500,700,900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/reset.css">
 	<meta charset="UTF-8">
@@ -43,7 +43,7 @@
 				</li>
 				<li class="col-md-3 it hov">
 					<a href="#">Payment</a>
-					<ul class="drop-menu">
+					<ul class="drop-menu drop-menu-last">
 						<li><a href="#">Lorem ipsum dolor</a></li>
 						<li><a href="#">Sit amet</a></li>
 						<li><a href="#">Consectetur adipisicing</a></li>
@@ -55,7 +55,7 @@
 				</li>
 				<li class="col-md-3 it hov">
 					<a href="#">Shipping</a>
-					<ul class="drop-menu">
+					<ul class="drop-menu drop-menu-last">
 						<li><a href="#">Lorem ipsum dolor</a></li>
 						<li><a href="#">Sit amet</a></li>
 						<li><a href="#">Consectetur adipisicing</a></li>
@@ -79,96 +79,95 @@
 		</div>
 		</div>
 	</header>
-	<hr>
 	<main>
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-3">
-					<form action="#">
-						<h5>device type</h5><br>
-						<div>
-							<input type="checkbox" id="typel">
+					<form class="fomr-fil" action="#">
+						<h5>device type</h5>
+						<div class=" check-m">
+							<input type="checkbox" class="checkbox" id="typel">
 							<label for="typel">Laptop</label>
 						</div>
-						<div>
-							<input type="checkbox" id="typet">
+						<div class=" check-m">
+							<input type="checkbox" class="checkbox" id="typet">
 							<label for="typet">Tablet</label>
 						</div><br>
 						<br>
-						<br>
-						<h5>color</h5><br>
-						<div>
-							<input type="checkbox" id="typel">
-							<label for="typel">Black</label>
+						<h5>color</h5>
+						<div class=" check-m">
+							<input type="checkbox" class="checkbox" id="typebl">
+							<label for="typebl">Black</label>
 						</div>
-						<div>
-							<input type="checkbox" id="typet">
-							<label for="typet">Red</label>
+						<div class=" check-m">
+							<input type="checkbox" class="checkbox" id="typered">
+							<label for="typered">Red</label>
 						</div>
-						<div>
-							<input type="checkbox" id="typel">
-							<label for="typel">Green</label>
+						<div class=" check-m">
+							<input type="checkbox" class="checkbox" id="typegree">
+							<label for="typegree">Green</label>
 						</div>
-						<div>
-							<input type="checkbox" id="typet">
-							<label for="typet">Blue</label>
+						<div class=" check-m">
+							<input type="checkbox" class="checkbox" id="typeblue">
+							<label for="typeblue">Blue</label>
 						</div>
-						<div>
-							<input type="checkbox" id="typel">
-							<label for="typel">Orange</label>
+						<div class=" check-m">
+							<input type="checkbox" class="checkbox" id="typeor">
+							<label for="typeor">Orange</label>
 						</div><br>
 						<br>
-						<br>
-						<h5>ram</h5><br>
-						<div class="upp">
-							<input type="checkbox" id="typet">
-							<label for="typet">1gb</label>
+						<h5>ram</h5>
+						<div class="upp check-m">
+							<input type="checkbox" class="checkbox" id="type1">
+							<label for="type1">1gb</label>
 						</div>
-						<div class="upp">
-							<input type="checkbox" id="typel">
-							<label for="typel">2gb</label>
+						<div class="upp check-m">
+							<input type="checkbox" class="checkbox" id="type2">
+							<label for="type2">2gb</label>
 						</div>
-						<div class="upp">
-							<input type="checkbox" id="typet">
-							<label for="typet">4gb</label>
+						<div class="upp check-m">
+							<input type="checkbox" class="checkbox" id="type4">
+							<label for="type4">4gb</label>
 						</div>
-						<div class="upp">
-							<input type="checkbox" id="typel">
-							<label for="typel">6gb</label>
+						<div class="upp check-m">
+							<input type="checkbox" class="checkbox" id="type6">
+							<label for="type6">6gb</label>
 						</div>
-						<div class="upp">
-							<input type="checkbox" id="typet">
-							<label for="typet">8gb</label>
+						<div class="upp check-m">
+							<input type="checkbox" class="checkbox" id="type8">
+							<label for="type8">8gb</label>
 						</div>
-						<br>
-						<p>Show more options ...</p><br>
-						<a href="#" class="btn-card">submit</a>
+						<a href="#" class="more" >Show more options ...</a>
+						<a href="#" class="btn-card more">submit</a>
 
 						
 						
 					</form>
 				</div>
 				<div class="col-md-9">
-				<div class="col-md-8">
-					<div class="clearfix">
+					<div class="row">
+						<div class="col-md-8 mar">
+						<div class="clearfix">
 
 						<a href="https://html5book.ru/html-tags/" class="rig w">Home page</a>
 						<a href="#" class="rig w">Products</a>
-						<a href="#" class="w">Laptops and Tablets</a>
+						<a href="#" class="w active">Laptops and Tablets</a>
 						<h3 class="h3">Laptops and Tablets</h3>
+						</div>
+						</div>
+						<div class="col-md-4 mar">
+						<select class="select-f" name="filter" id="">
+							<option value="sort by price">sort by price</option>
+							<option value="sort by name">sort by name</option>
+							<option value="sort by date">sort by date</option>
+							<option value="sort by popularity">sort by popularity</option>
+						</select>
+						</div>
 					</div>
-				</div>
-				<div class="col-md-4">
-					<select class="select-f" name="filter" id="">
-						<option value="sort by price">sort by price</option>
-						<option value="sort by name">sort by name</option>
-						<option value="sort by date">sort by date</option>
-						<option value="sort by popularity">sort by popularity</option>
-					</select>
-				</div>
 				<div class="col-md-4">
 						<div class="card">
- 						 <div class="card-img img1">
+ 						 <div class="card-img">
+ 						 	<img src="photo/desktop.png" class="img" alt="">
  						 	<a href="#"><div class="f-l full"></div></a>
  						 	<a href="#"><div class="f-l like"></div></a>
  						 </div>
@@ -188,7 +187,8 @@
   						</div>
 					</div>
 					<div class="card">
- 						 <div class="card-img img2">
+ 						 <div class="card-img">
+ 						 	<img src="photo/laptop.png" class="img" alt="">
  						 	<a href="#"><div class="f-l full"></div></a>
  						 	<a href="#"><div class="f-l like"></div></a>
  						 </div>
@@ -208,7 +208,8 @@
   						</div>
 					</div>
 					<div class="card">
- 						 <div class="card-img img3">
+ 						 <div class="card-img">
+ 						 	<img src="photo/tablet.png" class="img" alt="">
  						 	<a href="#"><div class="f-l full"></div></a>
  						 	<a href="#"><div class="f-l like"></div></a>
  						 </div>
@@ -227,13 +228,14 @@
     						 <br><br>
   						</div>
 					</div>
-					</div>
+				</div>
 					
 				
 				
 				<div class="col-md-4">
 					<div class="card">
- 						 <div class="card-img img4">
+ 						 <div class="card-img">
+ 						 	<img src="photo/remoter.png" class="img" alt="">
  						 	<a href="#"><div class="f-l full"></div></a>
  						 	<a href="#"><div class="f-l like"></div></a>
  						 </div>
@@ -244,7 +246,7 @@
    							 <p class="mtl-10"><b>screem size:</b> <span>7 inches</span></p>
    							 <p class="mtl-10"><b>ram:</b> <span>1GB</span></p>
    							 <br>
-   							 <p class="price">$599<sup class="sup">25</sup></p>
+   							 <p class="price">$1250<sup class="sup">99</sup></p>
    							 <br>
     						 <a href="#" class="btn-card">more details</a>
     						 <br>
@@ -253,7 +255,8 @@
   						</div>
 					</div>
 					<div class="card">
- 						 <div class="card-img img5">
+ 						 <div class="card-img">
+ 						 	<img src="photo/mp3p.png" class="img" alt="">
  						 	<a href="#"><div class="f-l full"></div></a>
  						 	<a href="#"><div class="f-l like"></div></a>
  						 </div>
@@ -264,7 +267,7 @@
    							 <p class="mtl-10"><b>screem size:</b> <span>7 inches</span></p>
    							 <p class="mtl-10"><b>ram:</b> <span>1GB</span></p>
    							 <br>
-   							 <p class="price">$599<sup class="sup">25</sup></p>
+   							 <p class="price">$1250<sup class="sup">99</sup></p>
    							 <br>
     						 <a href="#" class="btn-card">more details</a>
     						 <br>
@@ -273,7 +276,8 @@
   						</div>
 					</div>
 					<div class="card">
- 						 <div class="card-img img6">
+ 						 <div class="card-img">
+ 						 	<img src="photo/remoter.png" class="img" alt="">
  						 	<a href="#"><div class="f-l full"></div></a>
  						 	<a href="#"><div class="f-l like"></div></a>
  						 </div>
@@ -284,7 +288,7 @@
    							 <p class="mtl-10"><b>screem size:</b> <span>7 inches</span></p>
    							 <p class="mtl-10"><b>ram:</b> <span>1GB</span></p>
    							 <br>
-   							 <p class="price">$599<sup class="sup">25</sup></p>
+   							 <p class="price">$1250<sup class="sup">99</sup></p>
    							 <br>
     						 <a href="#" class="btn-card">more details</a>
     						 <br>
@@ -296,7 +300,8 @@
 				
 				<div class="col-md-4">
 					<div class="card">
- 						 <div class="card-img img7">
+ 						 <div class="card-img">
+ 						 	<img src="photo/watch.png" class="img" alt="">
  						 	<a href="#"><div class="f-l full"></div></a>
  						 	<a href="#"><div class="f-l like"></div></a>
  						 </div>
@@ -307,7 +312,7 @@
    							 <p class="mtl-10"><b>screem size:</b> <span>7 inches</span></p>
    							 <p class="mtl-10"><b>ram:</b> <span>1GB</span></p>
    							 <br>
-   							 <p class="price">$599<sup class="sup">25</sup></p>
+   							 <p class="price">$399<sup class="sup">50</sup></p>
    							 <br>
     						 <a href="#" class="btn-card">more details</a>
     						 <br>
@@ -316,7 +321,8 @@
   						</div>
 					</div>
 					<div class="card">
- 						 <div class="card-img img2">
+ 						 <div class="card-img">
+ 						 	<img src="photo/phone.png" class="img" alt="">
  						 	<a href="#"><div class="f-l full"></div></a>
  						 	<a href="#"><div class="f-l like"></div></a>
  						 </div>
@@ -327,7 +333,7 @@
    							 <p class="mtl-10"><b>screem size:</b> <span>7 inches</span></p>
    							 <p class="mtl-10"><b>ram:</b> <span>1GB</span></p>
    							 <br>
-   							 <p class="price">$599<sup class="sup">25</sup></p>
+   							 <p class="price">$399<sup class="sup">50</sup></p>
    							 <br>
     						 <a href="#" class="btn-card">more details</a>
     						 <br>
@@ -336,7 +342,8 @@
   						</div>
 					</div>
 					<div class="card">
- 						 <div class="card-img img3">
+ 						 <div class="card-img">
+ 						 	<img src="photo/watch.png" class="img" alt="">
  						 	<a href="#"><div class="f-l full"></div></a>
  						 	<a href="#"><div class="f-l like"></div></a>
  						 </div>
@@ -347,7 +354,7 @@
    							 <p class="mtl-10"><b>screem size:</b> <span>7 inches</span></p>
    							 <p class="mtl-10"><b>ram:</b> <span>1GB</span></p>
    							 <br>
-   							 <p class="price">$599<sup class="sup">25</sup></p>
+   							 <p class="price">$399<sup class="sup">50</sup></p>
    							 <br>
     						 <a href="#" class="btn-card">more details</a>
     						 <br>
