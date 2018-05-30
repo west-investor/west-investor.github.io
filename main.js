@@ -67,4 +67,73 @@ var x = +prompt("Enter second number");
   	console.log(z);
   } else 
   	console.log("Numbers are equal");
+
+
+function discount() {
+
+	var sumPurchase = +prompt("Enter the sum of your purchase");
+	var currency = 'UAN';
+
+
+	if(sumPurchase<1000) {
+		discountPurchase = sumPurchase * 0.03;
+		console.log("Your discount is", discountPurchase,currency);
+	} else if (sumPurchase>=1000 && sumPurchase  < 5000) {
+		discountPurchase = sumPurchase * 0.05;
+		console.log("Your discount is", discountPurchase,currency);
+	} else if (sumPurchase>=5000) {
+		discountPurchase = sumPurchase * 0.1;
+		console.log("Your discount is", discountPurchase,currency);
+	}
+}
+discount();
+function biggerNumber() {
+	
+	var firstNumber = +prompt("Enter first number");
+	var secondNumber = +prompt("Enter second number");
+
+	if(firstNumber>secondNumber) {
+		console.log(firstNumber);
+	} else if (secondNumber>firstNumber) {
+		console.log(secondNumber)
+	} else {
+		console.log("They are equal")
+	}
+}
+biggerNumber();
+
+
+function Price() {
+
+	var priceFirstThing = +prompt("Enter price first thing");
+	var priceSecondThing = +prompt("Enter price second thing");
+	var quantityFirstThing = +prompt("Enter quantity first thing");
+	var quantitySecondtThing = +prompt("Enter quantity second thing");
+	var currency = "UAN";
+
+	var firstThing = priceFirstThing * quantityFirstThing;
+	var secondThing = priceSecondThing * quantitySecondtThing;
+	var commonPrice = firstThing + secondThing;
+	console.log(commonPrice + " " + currency);
+}
+Price();
+
+
+var arr = [1,2,3,4,5,6];
+	for (i = arr.length-1; arr[i] <= arr.length; i++) {
+		console.log(arr[i]);  
+	}
+
+
+
+var sum = 0;
+var arr = [1,2,3,4,5];
+	for (i = 0; i < arr.length; i++) {
+		sum = sum + arr[i];
+		
+	}
+console.log(sum);
+
 */
+
+
